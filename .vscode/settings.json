@@ -1,0 +1,8 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/b2de24eb-0e61-46db-9b92-097331704140/resourceGroups/mike-test-dev/providers/Microsoft.Web/sites/mikezou",
+    "appService.deploySubpath": "."
+}
