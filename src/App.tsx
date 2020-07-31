@@ -3,6 +3,7 @@ import { Stack, Text, Link, FontWeights } from 'office-ui-fabric-react';
 import { Label } from 'office-ui-fabric-react/lib/Label';
 import { NavBar } from './NavBar';
 import { CardSample } from './CardSample';
+import Graph from './Graph';
 
 const boldStyle = { root: { fontWeight: FontWeights.semibold } };
 
@@ -22,6 +23,9 @@ export const App: React.FunctionComponent = () => {
             <CardSample />
             <CardSample />
             <CardSample />
+          </Stack>
+          <Stack>
+            <Graph />
           </Stack>
         </Stack>
       </Stack>
